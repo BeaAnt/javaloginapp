@@ -1,33 +1,16 @@
-# README #
-##Test
+# javaloginapp #
+Integration Steps
 
-This README would normally document whatever steps are necessary to get your application up and running.
+On Sonarqube server
+Generate a sonarqube token to authenticate from Jenkins   
 
-### What is this repository for? ###
-## Test Line added ###
-
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+On Jenkins server
+Install Sonarqube plugin
+Configure Sonarqube credentials
+Add Sonarqube to jenkins "configure system"
+Install SonarScanner
+create a "sonarTest" project with Jenkinsfile
+Run Pipeline job
 
 
-### Contribution guidelines ###
 
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
