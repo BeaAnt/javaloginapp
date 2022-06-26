@@ -19,7 +19,7 @@ pipeline{
         steps{
         withSonarQubeEnv('sonarqube-9.1') { 
 
-        sh "mvn sonar:sonar"
+        sh "mvn sonar:sonar -Dsonar.projectName=samplesonar"
     }
         }
         }
