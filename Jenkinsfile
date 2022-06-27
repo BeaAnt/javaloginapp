@@ -19,7 +19,7 @@ pipeline{
         steps{
         withSonarQubeEnv('sonarqube-9.1') { 
 
-        sh "mvn sonar:sonar -Dsonar.projectName=sonarTest"
+        sh "mvn sonar:sonar -Dsonar.projectName=javaloginapp_sonar"
     }
         }
         }
